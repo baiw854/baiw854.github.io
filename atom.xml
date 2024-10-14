@@ -10,9 +10,9 @@
     </author>
     <updated>2024-10-14T08:27:55.000Z</updated>
     <entry>
-        <id>https://www.minomie.com/Web/back-end/PHP/php%E4%BD%BF%E7%94%A8PhpSpreadsheet%E5%AF%B9Excel%E8%BF%9B%E8%A1%8C%E5%AF%BC%E5%85%A5%E5%92%8C%E5%AF%BC%E5%87%BAMySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+        <id>https://www.minomie.com/Web/back-end/PHP/phpExcel/</id>
         <title>php使用PhpSpreadsheet对Excel进行导入和导出MySQL数据库</title>
-        <link rel="alternate" href="https://www.minomie.com/Web/back-end/PHP/php%E4%BD%BF%E7%94%A8PhpSpreadsheet%E5%AF%B9Excel%E8%BF%9B%E8%A1%8C%E5%AF%BC%E5%85%A5%E5%92%8C%E5%AF%BC%E5%87%BAMySQL%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+        <link rel="alternate" href="https://www.minomie.com/Web/back-end/PHP/phpExcel/"/>
         <content type="html">&lt;p&gt;&amp;lt;!--&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;在早期的实习中，我所在的项目中需要将 Excel 文件导入到数据库中，并将数据库中的数据导出到 Excel 文件中。由于项目中使用的数据库为 MySQL，因此需要使用 PHP 对 Excel 文件进行导入和导出。&lt;/p&gt;
