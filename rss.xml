@@ -59,6 +59,29 @@
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">https://www.minomie.com/Web/back-end/php2/</guid>
+            <title>php2</title>
+            <link>https://www.minomie.com/Web/back-end/php2/</link>
+            <category term="Web" scheme="https://www.minomie.com/categories/web/" />
+            <category term="后端" scheme="https://www.minomie.com/categories/web/back-end/" />
+            <category term="PHP" scheme="https://www.minomie.com/categories/web/back-end/PHP/" />
+            <category term="PHP" scheme="https://www.minomie.com/tags/php/" />
+            <category term="MySQL" scheme="https://www.minomie.com/tags/mysql/" />
+            <category term="Excel" scheme="https://www.minomie.com/tags/excel/" />
+            <pubDate>Mon, 14 Oct 2024 16:27:55 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;在早期的实习中，我所在的项目中需要将 Excel 文件导入到数据库中，并将数据库中的数据导出到 Excel 文件中。由于项目中使用的数据库为 MySQL，因此需要使用 PHP 对 Excel 文件进行导入和导出。&lt;/p&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备工作&#34;&gt;#&lt;/a&gt; 准备工作&lt;/h2&gt;
+&lt;h3 id=&#34;初识phpspreadsheet&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#初识phpspreadsheet&#34;&gt;#&lt;/a&gt; 初识 PhpSpreadsheet&lt;/h3&gt;
+&lt;p&gt;PhpSpreadsheet 是一个开源的 PHP 库，可以用来处理各种电子表格文件，包括 Excel、CSV、ODS 等。&lt;br /&gt;
+官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9waHBzcHJlYWRzaGVldC5yZWFkdGhlZG9jcy5pby9lbi9zdGFibGUv&#34;&gt;https://phpspreadsheet.readthedocs.io/en/stable/&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;安装phpspreadsheet&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装phpspreadsheet&#34;&gt;#&lt;/a&gt; 安装 PhpSpreadsheet&lt;/h3&gt;
+&lt;p&gt;使用 Composer 安装 PhpSpreadsheet：&lt;/p&gt;
+&lt;figure class=&#34;highlight raw&#34;&gt;&lt;figcaption data-lang=&#34;&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;composer require phpoffice&amp;#x2F;phpspreadsheet&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;demo目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#demo目录&#34;&gt;#&lt;/a&gt; demo 目录&lt;/h2&gt;
+&lt;figure class=&#34;highlight raw&#34;&gt;&lt;figcaption data-lang=&#34;&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── demo.php&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── export.php&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── import.php&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── mysql.php&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── README.md&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;└── vendor&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://www.minomie.com/hello-world/</guid>
             <title>Hello World</title>
             <link>https://www.minomie.com/hello-world/</link>
